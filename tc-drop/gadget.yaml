@@ -1,0 +1,13 @@
+name: 'TODO: Fill the gadget name'
+description: 'TODO: Fill the gadget description'
+gadgetParams:
+  iface:
+    key: iface
+    defaultValue: ""
+    description: Network interface to attach to
+ebpfParams:
+  drop_addr:
+    key: drop-addr
+    defaultValue: 8.8.4.4
+    description: Address to drop
+    type: uint32
